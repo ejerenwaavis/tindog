@@ -5,6 +5,10 @@
 h2{
   font-weight: bolder;
 }
+
+h1{
+  font-weight: 900;
+}
 .card-header h2{
   font-weight: 400;
 }
@@ -123,13 +127,32 @@ h2{
 /* ***************** CALL SECTION **************** */
 
 .call {
-  padding: 6% 0;
+  margin-top: 20px;
+  color: white;
+  padding: 12% 0;
+  background-color: #ff4c68;
 }
 
+.call .btn{
+  margin-right: 20px;
+}
 
 /* ************** FOOTER *************************** */
 
 .footer{
-  padding: 3%;
-  background-color: #ff4c68;
+  padding: 5%;
+}
+
+.footer p .fab, .footer p .fa{
+  margin-right: 6px;
+  margin-left: 6px;
+  transition: 0.8s;
+}
+
+.footer p .fab:hover, .footer p .fa:hover{
+  position: relative;
+  color: #ff4c68;
+  top: -5px;
+  transition: 0.8s;
+
 }
