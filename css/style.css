@@ -1,0 +1,135 @@
+#title {
+  background: linear-gradient(45deg, #ff4c68, #E8417E);
+}
+
+h2{
+  font-weight: bolder;
+}
+.card-header h2{
+  font-weight: 400;
+}
+
+.montserrat-black {
+  font-family: Montserrat, sans-serif;
+  font-weight: 900;
+}
+
+.montserrat-Bold {
+  font-family: Montserrat, sans-serif;
+  font-weight: 600;
+}
+
+.header-caption {
+  font-size: 3.2rem;
+  line-height: 1.3;
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.rotate-30{
+  transform: rotate(28deg);
+}
+
+.img-sm{
+  height: 600px;
+  margin-top: 30px;
+  position: absolute;
+  /* z-index: 0; */
+}
+
+
+/* ************ FEATURES ************0 */
+.features {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features .fas{
+  color: #ff4c68;
+}
+
+.features h3{
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+
+/* ************** Testimonials ***************** */
+.testimonial-image{
+  border-radius: 50%;
+  height: 100px;
+}
+
+
+.testimonial{
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #ff4c68;
+}
+
+.testimonial-text{
+  padding: 50px 0 30px 0;
+  font-weight: 800;
+}
+
+
+
+
+/* *************** BRAND SECTION ********************0 */
+.brands-section{
+  margin: 5% auto;
+}
+
+.brands-section img{
+  height: 30px;
+  filter:  grayscale(100%) blur(0.2px);
+  transition: 0.5s;
+}
+
+.brands-section:hover img{
+    filter:  grayscale(100%) blur(0px);
+}
+
+.brands-section img:hover{
+  filter:  grayscale(0%) blur(0px);
+}
+
+
+/* **************** PRICING *************** */
+.dotted-divider {
+  width: 3%;
+  border-width: 6px;
+  border-style: dotted;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: #929394;
+  margin: 3% auto;
+}
+
+
+.intro-princing{
+  margin-bottom: 4%;
+}
+
+
+/* ***************** CALL SECTION **************** */
+
+.call {
+  padding: 6% 0;
+}
+
+
+/* ************** FOOTER *************************** */
+
+.footer{
+  padding: 3%;
+  background-color: #bfbebf;
+}
